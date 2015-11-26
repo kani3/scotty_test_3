@@ -23,9 +23,6 @@ import Data.Time (UTCTime, getCurrentTime)
 import qualified Data.Text as T
 import Control.Monad.IO.Class (liftIO)
 import Control.Monad.Trans.Resource (runResourceT, ResourceT)
-import Database.Persist
-import Database.Persist.Sqlite
-import Database.Persist.TH
 import Control.Monad (forM_)
 import Control.Applicative
 import Control.Monad.Logger
